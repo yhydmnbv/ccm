@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>小染酷酷</title>
+  <body>	
+<style>
+.{
+margin:0;
+padding:0;
+}
+
+.logo img{
+height:100px;
+width:100px;
+border-radius:100%;
+border:2px solid skyblue;
+margin:100px;
+box-shadow:2px 2px 20px rgb(0,255,255);
+}
+.logo{
+ text-align:center;
+ }
+.give h1{
+text-align:center;
+}
+a{
+  text-decoration:none;
+  color:skyblue;
+  }
+.logo1{
+       text-align:center;
+       color:red;
+       position:absolute;
+       top:0;
+       left:0;
+       width:100%;
+       line-height:400%;
+      }
+    
+</style>
+</head>
+ 
+ <body style="background-image:url(http://cdn.u1.huluxia.com/g4/M02/F2/C9/rBAAdmN_KRKAMmGiAAOddP0K6rQ912.jpg);background-size:100% auto;">
+      
+<div class="logo">
+<img src="http://cdn.u1.huluxia.com/g4/M02/F2/D8/rBAAdmN_NxWAcU3jAAlt0YcCr5M417.jpg">
+</div>
+
+<big class="logo1"
+<p style="font-size:40px;">欢迎来到小染主页</p>
+  <div id="v5" class="hi">
+   08:54
+   </div>
+</big>
+   
+ <audio autoplay="autoplay" loop>  
+    <source src="https://sharefs.ali.kugou.com/202211241613/fae36f4efca16f9945125f3cb8893d27/KGTX/CLTX001/a42437ba7ea33dab2cdc7bb5df1ea58e.mp3" type="audio/mpeg">
+  </audio>
+
+
+<div class="give">
+<h1><a href="http://cdn.u1.huluxia.com/g4/M01/F2/E6/rBAAdmN_QXeAfG3wADrgmehELGU809.gif">好康滴</h1>
+<h1><a href="https://www.likecs.com/tools-5.html">测试密码安全</h1>
+<h1><a href="https://www.gongjugou.com/shenghuo/erweima/">二维码生成</h1>
+<h1><a href=":http://ip.iculture.cc/probe.php?key=13798797194">定位</h1>
+</div>
+ 
+   
+  <script>
+  function dif(date){
+   if(date < 10){
+   return "0" +date;
+   }
+ return date;
+}
+var t = null;
+t = setTimeout(time,0);
+function time(){
+    clearTimeout(t);
+    var d = new Date();
+    var h=d.getHours();
+    var f=d.getMinutes();
+    document.querySelector(".hi").innerHTML=""+dif(h)+":"+dif(f)+"";
+    t = setTimeout(time,1000);
+}
+  </script>
+  </body>
+</html>
